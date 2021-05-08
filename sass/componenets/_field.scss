@@ -1,0 +1,38 @@
+@import "../helper/control";
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  img {
+    display: inline-block;
+    vertical-align: top;
+  }
+  &.is-mobile {
+    display: flex;
+    .field-left,
+    .field-right {
+      display: flex;
+      margin-top: 0;
+    }
+    .field-item {
+      &:not(:last-child) {
+        margin-bottom: 0;
+      }
+      &:not(.is-narrow) {
+        flex-grow: 1;
+      }
+    }
+  }
+
+  @include media("<=ipad") {
+    background-color: #3c00ff88;
+  }
+
+  @include media(">=ipadPro", "<smallDesktop") {
+    background-color: #ff00c3;
+  }
+
+  @include media(">=smallDesktop", "<largDsktop") {
+    background-color: #ddd;
+  }
+}

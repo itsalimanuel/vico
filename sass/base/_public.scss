@@ -1,0 +1,70 @@
+// _public - base folder
+
+html {
+  font-size: 12px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  width: 100%;
+  text-size-adjust: 100%;
+}
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: block;
+}
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  color: #000;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 120%;
+}
+a {
+  color: #ffb45f;
+  cursor: pointer;
+  text-decoration: none;
+  strong {
+    color: currentColor;
+  }
+  &:hover {
+    color: #999;
+  }
+}
+hr {
+  background-color: #999;
+  border: none;
+  display: block;
+  height: 1.5px;
+  margin: 1rem;
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  vertical-align: baseline;
+}
+strong {
+  color: #000;
+  font-weight: bold;
+}
+table td,
+th {
+  color: #000;
+  vertical-align: top;
+  &:not([align]) {
+    text-align: inherit;
+  }
+}
