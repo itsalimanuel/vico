@@ -23,16 +23,65 @@
       }
     }
   }
-
-  @include media("<=ipad") {
-    background-color: #3c00ff88;
+  //tablet brackpoint
+  @include media(">=SIpad", "<=LIpad") {
+    display: flex;
+    & > .field-item {
+      &:not(.is-narrow) {
+        flex-grow: 1;
+      }
+    }
   }
-
-  @include media(">=ipadPro", "<smallDesktop") {
-    background-color: #ff00c3;
+  &-item {
+    align-items: center;
+    display: flex;
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    justify-content: center;
+    .title,
+    .subtitle {
+      margin: 0;
+    }
+    @include media("<=LMobile") {
+      &:not(:last-child) {
+        margin-bottom: 12px;
+      }
+    }
   }
-
-  @include media(">=smallDesktop", "<largDsktop") {
-    background-color: #ddd;
+  &-left,
+  &-right {
+    flex-basis: auto;
+    flex-grow: 0;
+    flex-shrink: 0;
+    .field-item {
+      &.is-flexible {
+        flex-grow: 1;
+      }
+      @include media(">=SIpad", "<=LIpad") {
+        &:not(:last-child) {
+          margin: 10px;
+        }
+      }
+    }
+  }
+  &-left {
+    align-items: center;
+    justify-content: center;
+    @include media("<=LMobile") {
+      .field-right {
+        margin-top: 24px;
+      }
+    }
+    @include media(">=SIpad", "<=LIpad") {
+      display: flex;
+    }
+  }
+  &-right {
+    align-items: center;
+    justify-content: flex-end;
+    @include media(">=SIpad", "<=LIpad") {
+      display: flex;
+    }
   }
 }
