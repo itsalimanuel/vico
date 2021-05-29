@@ -1,2 +1,5 @@
 node_modules
 .idea/
+.gitignore
+gulpfile.js
+sass/componenets/_panel.scss

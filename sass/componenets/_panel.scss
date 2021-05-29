@@ -1,0 +1,14 @@
+.panel {
+  border-radius: 6px;
+  box-shadow: 0 8px 16px -20px rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+  font-size: 16px;
+  &-heading {
+    background-color: #ededed;
+    border-radius: 6px 6px 0 0;
+    color: #363636;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.25;
+    padding: 12 16px;
+  }
+}

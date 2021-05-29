@@ -1,0 +1,128 @@
+@import "../helper/control";
+.pop {
+  align-items: center;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  position: fixed;
+  z-index: 40;
+  &.is-active {
+    display: flex;
+  }
+  &-background {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgba(10, 10, 10, 0.86);
+  }
+  &-content,
+  &-card {
+    margin: 0 20px;
+    max-height: calc(800px - 160px);
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    @include media(">=SIpad") {
+      .media-content {
+        margin: 0 auto;
+        max-height: calc(800px - 40px);
+        width: 640px;
+      }
+    }
+  }
+  &-close {
+    background: 0 0;
+    height: 40px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    width: 40px;
+    &:active {
+      background-color: rgba(10, 10, 10, 0.4);
+    }
+    &:hover {
+      background-color: rgba(10, 10, 10, 0.3);
+    }
+    &.is-larg {
+      height: 32px;
+      max-height: 32px;
+      max-width: 32px;
+      min-height: 32px;
+      min-width: 32px;
+      width: 32px;
+    }
+  }
+  &-card {
+    display: flex;
+    flex-direction: column;
+
+    max-height: calc(800px - 40px);
+    overflow: hidden;
+    @include media(">=LDesktop") {
+      .media-content {
+        margin: 0 auto;
+
+        max-height: calc(1920px - 40px);
+        width: 640px;
+      }
+    }
+    @include media(">=SDesktop") {
+      .media-content {
+        margin: 0 auto;
+
+        max-height: calc(800px - 40px);
+        width: 640px;
+      }
+    }
+    @include media(">=SIpad") {
+      .media-content {
+        margin: 0 auto;
+
+        max-height: calc(800px - 40px);
+        width: 640px;
+      }
+    }
+    &-header,
+    &-footer {
+      align-items: center;
+      background-color: #f5f5f5;
+      display: flex;
+      flex-shrink: 0;
+      justify-content: flex-start;
+      padding: 20px;
+      position: relative;
+    }
+    &-header {
+      border-bottom: 1px solid #999;
+      border-top-left-radius: 6px;
+      border-top-right-radius: 6px;
+    }
+    &-footer {
+      border-bottom-left-radius: 6px;
+      border-bottom-right-radius: 6px;
+      border-top: 1px solid #999;
+      .btn {
+        &:not(:last-child) {
+          margin-right: 8px;
+        }
+      }
+    }
+    &-title {
+      color: #111111;
+      flex-grow: 1;
+      flex-shrink: 0;
+      font-size: 24px;
+      line-height: 1;
+    }
+    &-body {
+      background-color: #fff;
+      flex-grow: 1;
+      flex-shrink: 1;
+      overflow: auto;
+      padding: 20px;
+    }
+  }
+}

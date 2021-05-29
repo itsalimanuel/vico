@@ -1,0 +1,88 @@
+@import "../helper/control";
+.pagination {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 16px;
+  margin: -4px;
+  &-list {
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    li {
+      list-style: none;
+    }
+  }
+  &-previous,
+  &-next {
+    padding-left: 12px;
+    padding-right: 12px;
+    white-space: nowrap;
+  }
+  &-previous,
+  &-next,
+  &-link {
+    border-color: #dbdbdb;
+    color: #363636;
+    min-width: 40px;
+  }
+  &-previous,
+  &-ellipsis,
+  &-link,
+  &-next {
+    font-size: 16px;
+    justify-content: center;
+    margin: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+  }
+  &-previous {
+    user-select: none;
+    -webkit-appearance: none;
+    align-items: center;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    box-shadow: none;
+    display: inline-flex;
+    font-size: 16px;
+    height: 40px;
+    justify-content: flex-start;
+    line-height: 1.5;
+    padding-bottom: calc(8px - 1px);
+    padding-left: calc(12px - 1px);
+    padding-right: calc(12px - 1px);
+    padding-top: calc(8px - 1px);
+    position: relative;
+    vertical-align: top;
+  }
+}
+@include media("<=SIpad") {
+  .pagination {
+    justify-content: space-between;
+    margin-bottom: 0;
+    margin-top: 0;
+    &-previous {
+      order: 2;
+    }
+    &-next {
+      order: 3;
+    }
+    &-list {
+      flex-grow: 1;
+      flex-shrink: 1;
+      justify-content: flex-start;
+      order: 1;
+    }
+    &-previous,
+    &-ellipsis,
+    &-link,
+    &-next {
+      margin-bottom: 0;
+      margin-top: 0;
+    }
+  }
+}
