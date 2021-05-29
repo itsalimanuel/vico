@@ -3,3 +3,4 @@ node_modules
 .gitignore
 gulpfile.js
 sass/componenets/_panel.scss
+sass/helper/_control.scss
