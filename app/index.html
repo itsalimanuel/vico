@@ -5,33 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/app.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/ico" href="favicon.ico" />
-    <title>Vico - StyleSheet</title>
+    <title>
+      Vico - is a free, CSS framework based on Flexbox and built with Sass. It's
+      100% responsive.
+    </title>
   </head>
   <body>
-    <div class="field">
-      <div class="field-item">
-        <h1>Vico - StyleSheet</h1>
+    <section id="hero">
+      <div class="container">
+        <div class="hero">
+          <h1 class="fs68 xl-fs50 lg-fs46 md-fs36 sm-fs28">
+            <strong>Vico: </strong>the modern <br />
+            <strong>CSS framework</strong> <br />
+            that just works.
+          </h1>
+          <a
+            href="https://github.com/itsalimanuel/vico"
+            class="button is-radius fs20 md-fs18 sm-fs16"
+          >
+            Open source on <strong> GitHub</strong>
+            <div class="icon">
+              <img src="/images/github.svg" alt="" />
+            </div>
+          </a>
+        </div>
       </div>
-    </div>
-    <style>
-      .field {
-        height: 100vh;
-        display: block;
-        text-align: center;
-      }
-      .field-item {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-      h1 {
-        font-size: 36px;
-        font-weight: bold;
-        text-transform: uppercase;
-        letter-spacing: 0.04rem;
-      }
-    </style>
+      <div class="image-left">
+        <img src="/images/pawprints.svg" alt="" />
+      </div>
+    </section>
   </body>
 </html>

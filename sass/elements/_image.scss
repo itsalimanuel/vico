@@ -1,0 +1,25 @@
+.image {
+  display: block;
+  position: relative;
+  &.square {
+    &-128 {
+      height: 128px;
+      width: 128px;
+    }
+    &-100 {
+      height: 100px;
+      width: 100px;
+    }
+    &-64 {
+      height: 64px;
+      width: 64px;
+    }
+    &-32 {
+      height: 32px;
+      width: 32px;
+    }
+  }
+  &.circle {
+    border-radius: 50%;
+  }
+}

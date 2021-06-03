@@ -1,0 +1,139 @@
+@import "../../sass/helper/control";
+#hero {
+  position: relative;
+  .hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      line-height: 120%;
+    }
+    a {
+      margin-top: 16px;
+      strong {
+        margin-left: 3px;
+      }
+    }
+  }
+  .image {
+    &-left {
+      position: absolute;
+      top: 45px;
+      left: -1%;
+      width: 20vw;
+      transform: rotate(-24deg);
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+@include media("<=LIpad") {
+  #hero {
+    position: relative;
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        line-height: 120%;
+      }
+      a {
+        margin-top: 16px;
+        strong {
+          margin-left: 3px;
+        }
+      }
+    }
+    .image {
+      &-left {
+        position: absolute;
+        top: 45px;
+        left: -2%;
+        width: 23vw;
+        transform: rotate(-24deg);
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@include media("<=SIpad") {
+  #hero {
+    position: relative;
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        line-height: 120%;
+      }
+      a {
+        margin-top: 16px;
+        strong {
+          margin-left: 3px;
+        }
+      }
+    }
+    .image {
+      &-left {
+        position: absolute;
+        top: 45px;
+        left: -2%;
+        width: 30vw;
+        transform: rotate(-24deg);
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@include media("<=LMobile") {
+  #hero {
+    position: relative;
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      h1 {
+        line-height: 120%;
+      }
+      a {
+        margin-top: 16px;
+        strong {
+          margin-left: 3px;
+        }
+      }
+    }
+    .image {
+      &-left {
+        position: absolute;
+        top: 45px;
+        left: -2%;
+        width: 36vw;
+        transform: rotate(-24deg);
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

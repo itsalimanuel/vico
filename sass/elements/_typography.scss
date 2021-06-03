@@ -1,0 +1,2544 @@
+@import "../helper/control";
+
+// > 1920
+.tc-light-grey {
+  font-weight: 200;
+  color: #dddddd;
+}
+
+.fw200 {
+  font-weight: 200;
+}
+
+.fw300 {
+  font-weight: 300;
+}
+
+.fw400 {
+  font-weight: 400;
+}
+
+.fw500 {
+  font-weight: 500;
+}
+
+.d1 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 7.5vw;
+  font-weight: 200;
+}
+
+.d2 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 6.354167vw;
+  font-weight: 200;
+}
+
+.d3 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 5vw;
+  font-weight: 200;
+}
+
+.d4 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 4.583333vw;
+  font-weight: 200;
+}
+
+.d5 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 3.75vw;
+  font-weight: 200;
+}
+
+.h1 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 2.916667vw;
+  font-weight: 200;
+}
+
+.h2 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 2.5vw;
+  font-weight: 200;
+}
+
+.h3 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.979167vw;
+  font-weight: 200;
+}
+
+.h4 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.40625vw;
+  font-weight: 200;
+}
+
+.h5 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.25vw;
+  font-weight: 200;
+}
+
+.lead {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.145833vw;
+  font-weight: 200;
+}
+
+.p {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.041667vw;
+  font-weight: 200;
+}
+
+.small {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 0.833333vw;
+  font-weight: 200;
+}
+
+.fs12 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 0.625vw;
+}
+
+.fs14 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 0.729167vw;
+}
+
+.fs16 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 0.833333vw;
+}
+
+.fs18 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 0.9375vw;
+}
+
+.fs20 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.041667vw;
+}
+
+.fs22 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.145833vw;
+}
+
+.fs24 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.25vw;
+}
+
+.fs26 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.354167vw;
+}
+
+.fs28 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.458333vw;
+}
+
+.fs30 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.5625vw;
+}
+
+.fs32 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.666667vw;
+}
+
+.fs34 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.770833vw;
+}
+
+.fs36 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.875vw;
+}
+
+.fs38 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 1.979167vw;
+}
+
+.fs40 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 2.083333vw;
+}
+
+.fs42 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 2.1875vw;
+}
+
+.fs44 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 2.291667vw;
+}
+
+.fs46 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 2.395833vw;
+}
+
+.fs48 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 2.5vw;
+}
+
+.fs50 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 2.604167vw;
+}
+
+.fs52 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 2.708333vw;
+}
+
+.fs54 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 2.8125vw;
+}
+
+.fs56 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 2.916667vw;
+}
+
+.fs58 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 3.020833vw;
+}
+
+.fs60 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 3.125vw;
+}
+
+.fs62 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 3.229167vw;
+}
+
+.fs64 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 3.333333vw;
+}
+
+.fs66 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 3.4375vw;
+}
+
+.fs68 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 3.541667vw;
+}
+
+.fs70 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 3.645833vw;
+}
+
+.fs72 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 3.75vw;
+}
+
+.fs74 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 3.854167vw;
+}
+
+.fs76 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 3.958333vw;
+}
+
+.fs78 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 4.0625vw;
+}
+
+.fs80 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 4.166667vw;
+}
+
+.fs82 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 4.270833vw;
+}
+
+.fs84 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 4.375vw;
+}
+
+.fs86 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 4.479167vw;
+}
+
+.fs88 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 4.583333vw;
+}
+
+.fs90 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 4.6875vw;
+}
+
+.fs140 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 7.291667vw;
+}
+
+.fs144 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 7.5vw;
+}
+
+.fs230 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 11.979167vw;
+}
+
+.fs238 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 12.395833vw;
+}
+
+.fs336 {
+  font-weight: 200;
+  line-height: 1.2;
+  font-size: 17.5vw;
+}
+.has-text-centered {
+  text-align: center !important;
+}
+
+// MAX(1920)PX
+@include media("<=LDesktop") {
+  .tc-light-grey {
+    font-weight: 200;
+    color: #dddddd;
+  }
+
+  .fw200 {
+    font-weight: 200;
+  }
+
+  .fw300 {
+    font-weight: 300;
+  }
+
+  .fw400 {
+    font-weight: 400;
+  }
+
+  .fw500 {
+    font-weight: 500;
+  }
+
+  .d1 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 144px;
+    font-weight: 200;
+  }
+
+  .d2 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 122px;
+    font-weight: 200;
+  }
+
+  .d3 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 96px;
+    font-weight: 200;
+  }
+
+  .d4 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 88px;
+    font-weight: 200;
+  }
+
+  .d5 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 72px;
+    font-weight: 200;
+  }
+
+  .h1 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 56px;
+    font-weight: 200;
+  }
+
+  .h2 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 48px;
+    font-weight: 200;
+  }
+
+  .h3 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 38px;
+    font-weight: 200;
+  }
+
+  .h4 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 27px;
+    font-weight: 200;
+  }
+
+  .h5 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 24px;
+    font-weight: 200;
+  }
+
+  .lead {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 22px;
+    font-weight: 200;
+  }
+
+  .p {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .small {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  .fs12 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 12px;
+  }
+
+  .fs14 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 14px;
+  }
+
+  .fs16 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 16px;
+  }
+
+  .fs18 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 18px;
+  }
+
+  .fs20 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 20px;
+  }
+
+  .fs22 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 22px;
+  }
+
+  .fs24 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 24px;
+  }
+
+  .fs26 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 26px;
+  }
+
+  .fs28 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 28px;
+  }
+
+  .fs30 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 30px;
+  }
+
+  .fs32 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 32px;
+  }
+
+  .fs34 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 34px;
+  }
+
+  .fs36 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 36px;
+  }
+
+  .fs38 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 38px;
+  }
+
+  .fs40 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 40px;
+  }
+
+  .fs42 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 42px;
+  }
+
+  .fs44 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 44px;
+  }
+
+  .fs46 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 46px;
+  }
+
+  .fs48 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 48px;
+  }
+
+  .fs50 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 50px;
+  }
+
+  .fs52 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 52px;
+  }
+
+  .fs54 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 54px;
+  }
+
+  .fs56 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 56px;
+  }
+
+  .fs58 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 58px;
+  }
+
+  .fs60 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 60px;
+  }
+
+  .fs62 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 62px;
+  }
+
+  .fs64 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 64px;
+  }
+
+  .fs66 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 66px;
+  }
+
+  .fs68 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 68px;
+  }
+
+  .fs70 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 70px;
+  }
+
+  .fs72 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 72px;
+  }
+
+  .fs74 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 74px;
+  }
+
+  .fs76 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 76px;
+  }
+
+  .fs78 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 78px;
+  }
+
+  .fs80 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 80px;
+  }
+
+  .fs82 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 82px;
+  }
+
+  .fs84 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 84px;
+  }
+
+  .fs86 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 86px;
+  }
+
+  .fs88 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 88px;
+  }
+
+  .fs90 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 90px;
+  }
+
+  .fs140 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 140px;
+  }
+
+  .fs144 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 144px;
+  }
+
+  .fs230 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 230px;
+  }
+
+  .fs238 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 238px;
+  }
+
+  .fs336 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 336px;
+  }
+}
+
+@include media("<=SDesktop") {
+  .xl-fs44 {
+    font-size: 44px;
+  }
+
+  .xl-fs32 {
+    font-size: 32px;
+  }
+
+  .xl-fs12 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 12px;
+  }
+
+  .xl-fs14 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 14px;
+  }
+
+  .xl-fs16 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 16px;
+  }
+
+  .xl-fs18 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 18px;
+  }
+
+  .xl-fs20 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 20px;
+  }
+
+  .xl-fs22 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 22px;
+  }
+
+  .xl-fs24 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 24px;
+  }
+
+  .xl-fs26 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 26px;
+  }
+
+  .xl-fs28 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 28px;
+  }
+
+  .xl-fs30 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 30px;
+  }
+
+  .xl-fs32 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 32px;
+  }
+
+  .xl-fs34 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 34px;
+  }
+
+  .xl-fs36 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 36px;
+  }
+
+  .xl-fs38 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 38px;
+  }
+
+  .xl-fs40 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 40px;
+  }
+
+  .xl-fs42 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 42px;
+  }
+
+  .xl-fs44 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 44px;
+  }
+
+  .xl-fs46 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 46px;
+  }
+
+  .xl-fs48 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 48px;
+  }
+
+  .xl-fs50 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 50px;
+  }
+
+  .xl-fs52 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 52px;
+  }
+
+  .xl-fs54 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 54px;
+  }
+
+  .xl-fs56 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 56px;
+  }
+
+  .xl-fs58 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 58px;
+  }
+
+  .xl-fs60 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 60px;
+  }
+
+  .xl-fs62 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 62px;
+  }
+
+  .xl-fs64 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 64px;
+  }
+
+  .xl-fs66 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 66px;
+  }
+
+  .xl-fs68 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 68px;
+  }
+
+  .xl-fs70 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 70px;
+  }
+
+  .xl-fs72 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 72px;
+  }
+
+  .xl-fs74 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 74px;
+  }
+
+  .xl-fs76 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 76px;
+  }
+
+  .xl-fs78 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 78px;
+  }
+
+  .xl-fs80 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 80px;
+  }
+
+  .xl-fs82 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 82px;
+  }
+
+  .xl-fs84 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 84px;
+  }
+
+  .xl-fs86 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 86px;
+  }
+
+  .xl-fs88 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 88px;
+  }
+
+  .xl-fs90 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 90px;
+  }
+
+  .xl-fs140 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 140px;
+  }
+
+  .xl-fs144 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 144px;
+  }
+
+  .xl-fs230 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 230px;
+  }
+
+  .xl-fs238 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 238px;
+  }
+
+  .xl-fs336 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 336px;
+  }
+}
+
+// MAX(1024)PX
+@include media("<=LIpad") {
+  font-weight: 200;
+
+  .lg-fw200 {
+    font-weight: 200;
+    font-weight: 200;
+  }
+
+  .lg-fw300 {
+    font-weight: 200;
+    font-weight: 300;
+  }
+
+  .lg-fw400 {
+    font-weight: 200;
+    font-weight: 400;
+  }
+
+  .lg-fw500 {
+    font-weight: 200;
+    font-weight: 500;
+  }
+
+  .d1 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 120px;
+  }
+
+  .d2 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 100px;
+  }
+
+  .d3 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 86px;
+  }
+
+  .d4 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 72px;
+  }
+
+  .d5 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 60px;
+  }
+
+  .h1 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 48px;
+  }
+
+  .h2 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 38px;
+  }
+
+  .h3 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 28px;
+  }
+
+  .h4 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 24px;
+  }
+
+  .h5 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 20px;
+  }
+
+  .lead {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 18px;
+  }
+
+  .p {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 16px;
+  }
+
+  .small {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 14px;
+  }
+
+  .lg-fs12 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 12px;
+  }
+
+  .lg-fs14 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 14px;
+  }
+
+  .lg-fs16 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 16px;
+  }
+
+  .lg-fs18 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 18px;
+  }
+
+  .lg-fs20 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 20px;
+  }
+
+  .lg-fs22 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 22px;
+  }
+
+  .lg-fs24 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 24px;
+  }
+
+  .lg-fs26 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 26px;
+  }
+
+  .lg-fs28 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 28px;
+  }
+
+  .lg-fs30 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 30px;
+  }
+
+  .lg-fs32 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 32px;
+  }
+
+  .lg-fs34 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 34px;
+  }
+
+  .lg-fs36 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 36px;
+  }
+
+  .lg-fs38 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 38px;
+  }
+
+  .lg-fs40 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 40px;
+  }
+
+  .lg-fs42 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 42px;
+  }
+
+  .lg-fs44 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 44px;
+  }
+
+  .lg-fs46 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 46px;
+  }
+
+  .lg-fs48 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 48px;
+  }
+
+  .lg-fs50 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 50px;
+  }
+
+  .lg-fs52 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 52px;
+  }
+
+  .lg-fs54 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 54px;
+  }
+
+  .lg-fs56 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 56px;
+  }
+
+  .lg-fs58 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 58px;
+  }
+
+  .lg-fs60 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 60px;
+  }
+
+  .lg-fs62 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 62px;
+  }
+
+  .lg-fs64 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 64px;
+  }
+
+  .lg-fs66 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 66px;
+  }
+
+  .lg-fs68 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 68px;
+  }
+
+  .lg-fs70 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 70px;
+  }
+
+  .lg-fs72 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 72px;
+  }
+
+  .lg-fs74 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 74px;
+  }
+
+  .lg-fs76 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 76px;
+  }
+
+  .lg-fs78 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 78px;
+  }
+
+  .lg-fs80 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 80px;
+  }
+
+  .lg-fs82 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 82px;
+  }
+
+  .lg-fs84 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 84px;
+  }
+
+  .lg-fs86 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 86px;
+  }
+
+  .lg-fs88 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 88px;
+  }
+
+  .lg-fs90 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 90px;
+  }
+
+  .lg-fs140 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 140px;
+  }
+
+  .lg-fs144 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 144px;
+  }
+
+  .lg-fs230 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 230px;
+  }
+
+  .lg-fs238 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 238px;
+  }
+
+  .lg-fs336 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 336px;
+  }
+}
+
+// MAX(768)PX
+@include media("<=SIpad") {
+  font-weight: 200;
+
+  .md-fw200 {
+    font-weight: 200;
+    font-weight: 200;
+  }
+
+  .md-fw300 {
+    font-weight: 200;
+    font-weight: 300;
+  }
+
+  .md-fw400 {
+    font-weight: 200;
+    font-weight: 400;
+  }
+
+  .md-fw500 {
+    font-weight: 200;
+    font-weight: 500;
+  }
+
+  .d1 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 96px;
+  }
+
+  .d2 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 78px;
+  }
+
+  .d3 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 68px;
+  }
+
+  .d4 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 56px;
+  }
+
+  .d5 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 48px;
+  }
+
+  .h1 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 42px;
+  }
+
+  .h2 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 34px;
+  }
+
+  .h3 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 28px;
+  }
+
+  .h4 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 24px;
+  }
+
+  .h5 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 20px;
+  }
+
+  .lead {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 18px;
+  }
+
+  .p {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 16px;
+  }
+
+  .small {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 15px;
+  }
+
+  .md-fs12 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 12px;
+  }
+
+  .md-fs14 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 14px;
+  }
+
+  .md-fs16 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 16px;
+  }
+
+  .md-fs18 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 18px;
+  }
+
+  .md-fs20 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 20px;
+  }
+
+  .md-fs22 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 22px;
+  }
+
+  .md-fs24 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 24px;
+  }
+
+  .md-fs26 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 26px;
+  }
+
+  .md-fs28 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 28px;
+  }
+
+  .md-fs30 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 30px;
+  }
+
+  .md-fs32 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 32px;
+  }
+
+  .md-fs34 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 34px;
+  }
+
+  .md-fs36 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 36px;
+  }
+
+  .md-fs38 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 38px;
+  }
+
+  .md-fs40 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 40px;
+  }
+
+  .md-fs42 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 42px;
+  }
+
+  .md-fs44 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 44px;
+  }
+
+  .md-fs46 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 46px;
+  }
+
+  .md-fs48 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 48px;
+  }
+
+  .md-fs50 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 50px;
+  }
+
+  .md-fs52 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 52px;
+  }
+
+  .md-fs54 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 54px;
+  }
+
+  .md-fs56 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 56px;
+  }
+
+  .md-fs58 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 58px;
+  }
+
+  .md-fs60 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 60px;
+  }
+
+  .md-fs62 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 62px;
+  }
+
+  .md-fs64 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 64px;
+  }
+
+  .md-fs66 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 66px;
+  }
+
+  .md-fs68 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 68px;
+  }
+
+  .md-fs70 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 70px;
+  }
+
+  .md-fs72 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 72px;
+  }
+
+  .md-fs74 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 74px;
+  }
+
+  .md-fs76 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 76px;
+  }
+
+  .md-fs78 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 78px;
+  }
+
+  .md-fs80 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 80px;
+  }
+
+  .md-fs82 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 82px;
+  }
+
+  .md-fs84 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 84px;
+  }
+
+  .md-fs86 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 86px;
+  }
+
+  .md-fs88 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 88px;
+  }
+
+  .md-fs90 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 90px;
+  }
+
+  .md-fs140 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 140px;
+  }
+
+  .md-fs144 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 144px;
+  }
+
+  .md-fs230 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 230px;
+  }
+
+  .md-fs238 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 238px;
+  }
+
+  .md-fs336 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 336px;
+  }
+}
+
+// MAX(375)PX
+@include media("<=LMobile") {
+  font-weight: 200;
+
+  .sm-fw200 {
+    font-weight: 200;
+    font-weight: 200;
+  }
+
+  .sm-fw300 {
+    font-weight: 200;
+    font-weight: 300;
+  }
+
+  .sm-fw400 {
+    font-weight: 200;
+    font-weight: 400;
+  }
+
+  .sm-fw500 {
+    font-weight: 200;
+    font-weight: 500;
+  }
+
+  .d1 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 78px;
+  }
+
+  .d2 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 70px;
+  }
+
+  .d3 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 62px;
+  }
+
+  .d4 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 56px;
+  }
+
+  .d5 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 48px;
+  }
+
+  .h1 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 42px;
+  }
+
+  .h2 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 34px;
+  }
+
+  .h3 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 28px;
+  }
+
+  .h4 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 24px;
+  }
+
+  .h5 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 20px;
+  }
+
+  .lead {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 18px;
+  }
+
+  .p {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 16px;
+  }
+
+  .small {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 15px;
+  }
+
+  .sm-fs12 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 12px;
+  }
+
+  .sm-fs14 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 14px;
+  }
+
+  .sm-fs16 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 16px;
+  }
+
+  .sm-fs18 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 18px;
+  }
+
+  .sm-fs20 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 20px;
+  }
+
+  .sm-fs22 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 22px;
+  }
+
+  .sm-fs24 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 24px;
+  }
+
+  .sm-fs26 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 26px;
+  }
+
+  .sm-fs28 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 28px;
+  }
+
+  .sm-fs30 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 30px;
+  }
+
+  .sm-fs32 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 32px;
+  }
+
+  .sm-fs34 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 34px;
+  }
+
+  .sm-fs36 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 36px;
+  }
+
+  .sm-fs38 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 38px;
+  }
+
+  .sm-fs40 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 40px;
+  }
+
+  .sm-fs42 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 42px;
+  }
+
+  .sm-fs44 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 44px;
+  }
+
+  .sm-fs46 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 46px;
+  }
+
+  .sm-fs48 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 48px;
+  }
+
+  .sm-fs50 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 50px;
+  }
+
+  .sm-fs52 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 52px;
+  }
+
+  .sm-fs54 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 54px;
+  }
+
+  .sm-fs56 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 56px;
+  }
+
+  .sm-fs58 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 58px;
+  }
+
+  .sm-fs60 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 60px;
+  }
+
+  .sm-fs62 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 62px;
+  }
+
+  .sm-fs64 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 64px;
+  }
+
+  .sm-fs66 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 66px;
+  }
+
+  .sm-fs68 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 68px;
+  }
+
+  .sm-fs70 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 70px;
+  }
+
+  .sm-fs72 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 72px;
+  }
+
+  .sm-fs74 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 74px;
+  }
+
+  .sm-fs76 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 76px;
+  }
+
+  .sm-fs78 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 78px;
+  }
+
+  .sm-fs80 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 80px;
+  }
+
+  .sm-fs82 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 82px;
+  }
+
+  .sm-fs84 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 84px;
+  }
+
+  .sm-fs86 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 86px;
+  }
+
+  .sm-fs88 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 88px;
+  }
+
+  .sm-fs90 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 90px;
+  }
+
+  .sm-fs140 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 140px;
+  }
+
+  .sm-fs144 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 144px;
+  }
+
+  .sm-fs230 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 230px;
+  }
+
+  .sm-fs238 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 238px;
+  }
+
+  .sm-fs336 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 336px;
+  }
+}
+
+// MAX(320)VW AUTO GENERATED CODE
+@include media("<=SMobile") {
+  font-weight: 200;
+
+  .sm-fw200 {
+    font-weight: 200;
+    font-weight: 200;
+  }
+
+  .sm-fw300 {
+    font-weight: 200;
+    font-weight: 300;
+  }
+
+  .sm-fw400 {
+    font-weight: 200;
+    font-weight: 400;
+  }
+
+  .sm-fw500 {
+    font-weight: 200;
+    font-weight: 500;
+  }
+
+  .d1 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 24.375vw;
+  }
+
+  .d2 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 21.875vw;
+  }
+
+  .d3 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 19.375vw;
+  }
+
+  .d4 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 17.5vw;
+  }
+
+  .d5 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 15vw;
+  }
+
+  .h1 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 13.125vw;
+  }
+
+  .h2 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 10.625vw;
+  }
+
+  .h3 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 8.75vw;
+  }
+
+  .h4 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 7.5vw;
+  }
+
+  .h5 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 6.25vw;
+  }
+
+  .lead {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 5.625vw;
+  }
+
+  .p {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 5vw;
+  }
+
+  .small {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 4.6875vw;
+  }
+
+  .sm-fs12 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 3.75vw;
+  }
+
+  .sm-fs14 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 4.375vw;
+  }
+
+  .sm-fs16 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 5vw;
+  }
+
+  .sm-fs18 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 5.625vw;
+  }
+
+  .sm-fs20 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 6.25vw;
+  }
+
+  .sm-fs22 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 6.875vw;
+  }
+
+  .sm-fs24 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 7.5vw;
+  }
+
+  .sm-fs26 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 8.125vw;
+  }
+
+  .sm-fs28 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 8.75vw;
+  }
+
+  .sm-fs30 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 9.375vw;
+  }
+
+  .sm-fs32 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 10vw;
+  }
+
+  .sm-fs34 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 10.625vw;
+  }
+
+  .sm-fs36 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 11.25vw;
+  }
+
+  .sm-fs38 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 11.875vw;
+  }
+
+  .sm-fs40 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 12.5vw;
+  }
+
+  .sm-fs42 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 13.125vw;
+  }
+
+  .sm-fs44 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 13.75vw;
+  }
+
+  .sm-fs46 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 14.375vw;
+  }
+
+  .sm-fs48 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 15vw;
+  }
+
+  .sm-fs50 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 15.625vw;
+  }
+
+  .sm-fs52 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 16.25vw;
+  }
+
+  .sm-fs54 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 16.875vw;
+  }
+
+  .sm-fs56 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 17.5vw;
+  }
+
+  .sm-fs58 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 18.125vw;
+  }
+
+  .sm-fs60 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 18.75vw;
+  }
+
+  .sm-fs62 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 19.375vw;
+  }
+
+  .sm-fs64 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 20vw;
+  }
+
+  .sm-fs66 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 20.625vw;
+  }
+
+  .sm-fs68 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 21.25vw;
+  }
+
+  .sm-fs70 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 21.875vw;
+  }
+
+  .sm-fs72 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 22.5vw;
+  }
+
+  .sm-fs74 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 23.125vw;
+  }
+
+  .sm-fs76 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 23.75vw;
+  }
+
+  .sm-fs78 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 24.375vw;
+  }
+
+  .sm-fs80 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 25vw;
+  }
+
+  .sm-fs82 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 25.625vw;
+  }
+
+  .sm-fs84 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 26.25vw;
+  }
+
+  .sm-fs86 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 26.875vw;
+  }
+
+  .sm-fs88 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 27.5vw;
+  }
+
+  .sm-fs90 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 28.125vw;
+  }
+
+  .sm-fs140 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 43.75vw;
+  }
+
+  .sm-fs144 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 45vw;
+  }
+
+  .sm-fs230 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 71.875vw;
+  }
+
+  .sm-fs238 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 74.375vw;
+  }
+
+  .sm-fs336 {
+    font-weight: 200;
+    line-height: 1.2;
+    font-size: 105vw;
+  }
+}

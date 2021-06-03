@@ -1,0 +1,59 @@
+@import "../helper/control";
+
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+section {
+  display: block;
+}
+.container,
+.container-full {
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+
+@include media("<=LDesktop") {
+  .container {
+    min-width: 1200px;
+    max-width: 1200px;
+    &-full {
+      min-width: 94%;
+      max-width: 94%;
+    }
+  }
+}
+@include media("<=SDesktop") {
+  .container {
+    min-width: 924px;
+    max-width: 924px;
+  }
+}
+@include media("<=LIpad") {
+  .container {
+    min-width: 692px;
+    max-width: 692px;
+  }
+}
+@include media("<=SIpad") {
+  .container {
+    min-width: 87.5%;
+    max-width: 87.5%;
+  }
+}
+@include media("<=LMobile") {
+  .container {
+    min-width: 87.5%;
+    max-width: 87.5%;
+  }
+}
+@include media("<=SMobile") {
+  .container {
+    min-width: 87.5%;
+    max-width: 87.5%;
+  }
+}

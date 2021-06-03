@@ -1,5 +1,5 @@
 // _public - base folder
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap");
 html {
   font-size: 12px;
   overflow-x: hidden;
@@ -22,13 +22,14 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body {
   color: #000;
   font-size: 16px;
   font-weight: 200;
   line-height: 120%;
+  font-family: "Roboto", sans-serif;
 }
 a {
   color: #ffb45f;
