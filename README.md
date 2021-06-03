@@ -1,5 +1,5 @@
 
- Vico - is a free, CSS framework based on Flexbox and built with ###SCSS. It's 100% responsive.
+ Vico - is a free, CSS framework based on Flexbox and built with SCSS. It's 100% responsive.
 ## Quick install
 
 ### NPM
