@@ -1,0 +1,286 @@
+@import "../helper/control";
+
+.rows {
+  display: flex;
+  margin: auto 0 auto 0;
+  flex-wrap: wrap;
+  &.space-between {
+    justify-content: space-between;
+  }
+  &.space-evenly {
+    justify-content: space-evenly;
+  }
+  &.center {
+    justify-content: center;
+  }
+  &.start {
+    justify-content: start;
+  }
+  &.flex-end {
+    justify-content: flex-end;
+  }
+  &.flex-start {
+    justify-content: flex-start;
+  }
+  .col1 {
+    flex: 0 0 10%;
+    max-width: 10%;
+  }
+  .col2 {
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+  .col3 {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .col4 {
+    flex: 0 0 40%;
+    max-width: 40%;
+  }
+  .col5 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .col6 {
+    flex: 0 0 60%;
+    max-width: 60%;
+  }
+  .col7 {
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+  .col8 {
+    flex: 0 0 80%;
+    max-width: 80%;
+  }
+  .col9 {
+    flex: 0 0 90%;
+    max-width: 90%;
+  }
+  .col10 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@include media("<=LDesktop") {
+  .rows {
+    .col1 {
+      flex: 0 0 10%;
+      max-width: 10%;
+    }
+    .col2 {
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+    .col3 {
+      flex: 0 0 30%;
+      max-width: 30%;
+    }
+    .col4 {
+      flex: 0 0 40%;
+      max-width: 40%;
+    }
+    .col5 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    .col6 {
+      flex: 0 0 60%;
+      max-width: 60%;
+    }
+    .col7 {
+      flex: 0 0 70%;
+      max-width: 70%;
+    }
+    .col8 {
+      flex: 0 0 80%;
+      max-width: 80%;
+    }
+    .col9 {
+      flex: 0 0 90%;
+      max-width: 90%;
+    }
+    .col10 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+}
+@include media("<=SDesktop") {
+  .rows {
+    .xl-col1 {
+      flex: 0 0 10%;
+      max-width: 10%;
+    }
+    .xl-col2 {
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+    .xl-col3 {
+      flex: 0 0 30%;
+      max-width: 30%;
+    }
+    .xl-col4 {
+      flex: 0 0 40%;
+      max-width: 40%;
+    }
+    .xl-col5 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    .xl-col6 {
+      flex: 0 0 60%;
+      max-width: 60%;
+    }
+    .xl-col7 {
+      flex: 0 0 70%;
+      max-width: 70%;
+    }
+    .xl-col8 {
+      flex: 0 0 80%;
+      max-width: 80%;
+    }
+    .xl-col9 {
+      flex: 0 0 90%;
+      max-width: 90%;
+    }
+    .xl-col10 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+}
+@include media("<=LIpad") {
+  .rows {
+    .lg-col1 {
+      flex: 0 0 10%;
+      max-width: 10%;
+    }
+    .lg-col2 {
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+    .lg-col3 {
+      flex: 0 0 30%;
+      max-width: 30%;
+    }
+    .lg-col4 {
+      flex: 0 0 40%;
+      max-width: 40%;
+    }
+    .lg-col5 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    .lg-col6 {
+      flex: 0 0 60%;
+      max-width: 60%;
+    }
+    .lg-col7 {
+      flex: 0 0 70%;
+      max-width: 70%;
+    }
+    .lg-col8 {
+      flex: 0 0 80%;
+      max-width: 80%;
+    }
+    .lg-col9 {
+      flex: 0 0 90%;
+      max-width: 90%;
+    }
+    .lg-col10 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+}
+@include media("<=SIpad") {
+  .rows {
+    .md-col1 {
+      flex: 0 0 10%;
+      max-width: 10%;
+    }
+    .md-col2 {
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+    .md-col3 {
+      flex: 0 0 30%;
+      max-width: 30%;
+    }
+    .md-col4 {
+      flex: 0 0 40%;
+      max-width: 40%;
+    }
+    .md-col5 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    .md-col6 {
+      flex: 0 0 60%;
+      max-width: 60%;
+    }
+    .md-col7 {
+      flex: 0 0 70%;
+      max-width: 70%;
+    }
+    .md-col8 {
+      flex: 0 0 80%;
+      max-width: 80%;
+    }
+    .md-col9 {
+      flex: 0 0 90%;
+      max-width: 90%;
+    }
+    .md-col10 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+}
+@include media("<=LMobile") {
+  .rows {
+    .sm-col1 {
+      flex: 0 0 10%;
+      max-width: 10%;
+    }
+    .sm-col2 {
+      flex: 0 0 20%;
+      max-width: 20%;
+    }
+    .sm-col3 {
+      flex: 0 0 30%;
+      max-width: 30%;
+    }
+    .sm-col4 {
+      flex: 0 0 40%;
+      max-width: 40%;
+    }
+    .sm-col5 {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+    .sm-col6 {
+      flex: 0 0 60%;
+      max-width: 60%;
+    }
+    .sm-col7 {
+      flex: 0 0 70%;
+      max-width: 70%;
+    }
+    .sm-col8 {
+      flex: 0 0 80%;
+      max-width: 80%;
+    }
+    .sm-col9 {
+      flex: 0 0 90%;
+      max-width: 90%;
+    }
+    .sm-col10 {
+      flex: 0 0 100%;
+      max-width: 100%;
+    }
+  }
+}
